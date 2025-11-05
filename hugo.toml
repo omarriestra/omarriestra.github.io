@@ -5,7 +5,7 @@ theme = 'congo'
 
 [params.author]
   name = "Omar Riestra"
-  image = "img/author.jpg"
+  image = "img/author.svg"
   headline = "Tech & Innovation Explorer"
   bio = "Passionate about technology, automation, and AI. Exploring the intersection of innovation and practical solutions."
 
