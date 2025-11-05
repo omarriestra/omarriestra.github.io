@@ -1,0 +1,155 @@
+# Writing Profile Configuration for Omar Riestra
+# Personal writing style and preferences for content creation
+
+[profile]
+  name = "Omar Riestra"
+  tagline = "Tech & Innovation Explorer"
+  email = "contact@example.com"
+
+  # Writing Style
+  [profile.style]
+    tone = "conversational"
+    voice = "curious and analytical"
+    language = "spanish"
+    complexity = "medium"
+
+    # Voice Characteristics
+    [profile.style.voice_traits]
+      approachable = true
+      technical = true
+      practical = true
+      innovative = true
+      forward_thinking = true
+
+  # Content Preferences
+  [profile.content]
+    # Preferred content length (words)
+    [profile.content.length]
+      blog_posts = { min = 800, max = 1500 }
+      project_descriptions = { min = 300, max = 600 }
+      ai_briefings = { min = 1000, max = 2000 }
+
+    # Structure preferences
+    [profile.content.structure]
+      use_headings = true
+      use_bullets = true
+      include_summary = true
+      include_takeaways = true
+
+  # Topics of Interest
+  [profile.topics]
+    primary = [
+      "Artificial Intelligence",
+      "Enterprise Automation",
+      "Digital Transformation",
+      "Process Optimization",
+      "Innovation Strategy"
+    ]
+
+    secondary = [
+      "Travel Technology",
+      "Cloud Computing",
+      "Data Analytics",
+      "Machine Learning",
+      "API Integration"
+    ]
+
+    # Keywords to boost in content
+    boost_keywords = [
+      "automation", "efficiency", "scalability",
+      "AI-powered", "intelligent", "strategic",
+      "transformation", "innovation", "optimization",
+      "workflow", "productivity", "digital"
+    ]
+
+  # Writing Goals
+  [profile.goals]
+    educate = "Share knowledge and insights with the community"
+    inspire = "Motivate others to explore new technologies"
+    connect = "Build relationships with fellow professionals"
+    document = "Create a personal knowledge base and portfolio
+
+  # Personal Brand Elements
+  [profile.brand]
+    personality = [
+      "Curious explorer",
+      "Practical innovator",
+      "Continuous learner",
+      "Problem solver"
+    ]
+
+    expertise = [
+      "Enterprise AI Implementation",
+      "Process Automation Design",
+      "Digital Innovation Strategy",
+      "Technology Integration"
+    ]
+
+    values = [
+      "Practical innovation",
+      "Continuous learning",
+      "Knowledge sharing",
+      "Collaborative problem solving"
+    ]
+
+# Content Templates
+[templates]
+  [templates.blog_post]
+    intro_pattern = "Start with a relatable problem or observation"
+    body_structure = ["Context", "Analysis", "Examples", "Applications"]
+    conclusion_pattern = "Summarize key insights and actionable takeaways"
+
+  [templates.project_case_study]
+    structure = [
+      "Challenge Description",
+      "Solution Approach",
+      "Implementation Details",
+      "Results and Learnings",
+      "Future Applications"
+    ]
+
+  [templates.ai_briefing]
+    sections = [
+      "Executive Summary",
+      "Key Developments",
+      "Business Implications",
+      "Strategic Considerations",
+      "Recommendations"
+    ]
+
+# Publishing Guidelines
+[publishing]
+  # Quality criteria
+  [publishing.quality_criteria]
+    technical_accuracy = "high"
+    practical_relevance = "high"
+    clarity = "high"
+    uniqueness = "medium"
+
+  # Review process
+  [publishing.review]
+    self_review = true
+    peer_review = false
+    fact_checking = true
+    proofreading = true
+
+  # Publishing schedule (preferred)
+  [publishing.schedule]
+    blog_posts = "weekly"
+    project_updates = "bi-weekly"
+    ai_briefings = "daily (curated)"
+
+# Analytics and Feedback
+[feedback]
+  # Metrics to track
+  [feedback.metrics]
+    engagement = ["page views", "time on page", "comments"]
+    reach = ["social shares", "backlinks", "referrals"]
+    quality = ["bounce rate", "return visitors"]
+
+  # Improvement sources
+  [feedback.sources]
+    analytics = true
+    comments = true
+    peer_feedback = true
+    self_reflection = true

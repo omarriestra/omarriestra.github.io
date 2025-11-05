@@ -1,0 +1,56 @@
+baseURL = 'https://omarriestra.github.io/'
+languageCode = 'es-es'
+title = 'Omar Riestra - Portfolio & Blog'
+theme = 'congo'
+
+[params.author]
+  name = "Omar Riestra"
+  image = "img/author.jpg"
+  headline = "Tech & Innovation Explorer"
+  bio = "Passionate about technology, automation, and AI. Exploring the intersection of innovation and practical solutions."
+
+[params]
+  # Appearance
+  colorScheme = "congo"
+  defaultAppearance = "dark"
+  autoSwitchAppearance = true
+
+  # Social links
+  [params.social]
+    github = "https://github.com/omarriestra"
+    linkedin = "https://www.linkedin.com/in/omarriestra/"
+    email = "contact@example.com"
+
+  # Analytics
+  [params.analytics]
+    enable = false
+    # provider = "plausible" # or "google", "fathom"
+    # property = "X-XXXXXXXX-X"
+
+# Navigation menu
+[menu]
+  [[menu.main]]
+    name = "About"
+    pageRef = "/about"
+    weight = 10
+
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 20
+
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "/posts"
+    weight = 30
+
+  [[menu.main]]
+    name = "AI Briefings"
+    pageRef = "/ai-briefings"
+    weight = 40
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"
